@@ -9,20 +9,20 @@
 **Steps to Reproduce:**
 1. Sign in to your account using the link: https://bondex.app/auth/login 
 2. Click your profile icon which is top right of the page
-![Account Settings Navigation]("images/Account Settings Navigation.png")
+![Account Settings Navigation](images/Account_Settings_Navigation.png)
 3. Select “Account Settings” from the activated dropdown.
-![Account Settings Selection]("images/Account Settings Selection.png")
+![Account Settings Selection](images/Account_Settings_Selection.png)
 3. Navigate to the “Wallet” tab by selecting it
-![Wallet Tab Selection]("images/Wallet Tab Selection.png")
+![Wallet Tab Selection](images/Wallet_Tab_Selection.png)
 4. Click on the button “Connect Wallet”
-![Connect Wallet Button Selection]("images/Connect Wallet Button Selection.png")
+![Connect Wallet Button Selection](images/Connect_Wallet_Button_Selection.png)
 5. A dialog box should appear, in that select “Continue with Google” as choice to connect wallet
-![Connect with Google Button Selection]("images/Connect with Google Button Selection.png")
+![Connect with Google Button Selection](images/Connect_with_Google_Button_Selection.png)
 6. A new tab opens showing Google account options
 7. Select an account and confirm.
-![Google Account Selection]("images/Google Account Selection.png")
+![Google Account Selection](images/Google_Account_Selection.png)
 8. A message appears: _“Authentication successful. Go back to the application, don't close the tab”_
-![Authentication Successful]("images/Authentication Successful.png")
+![Authentication Successful](images/Authentication_Successful.png)
 9. Return to the original Bondex tab and observe the activity happens
 
 **Expected Result:**
@@ -33,9 +33,9 @@ App spins briefly, then returns to the original “Connect Wallet” state with 
 
 **Evidence:**
 Loading...
-![Loading Captured]("images/Loading Captured.png")
+![Loading Captured](images/Loading_Captured.png)
 Return to the Original State
-![No Connection Made]("images/No Connection Made.png")
+![No Connection Made](images/No_Connection_Made.png)
 
 **Severity:** High  
 **Suggested Priority:** P1 – Critical user journey is broken.
