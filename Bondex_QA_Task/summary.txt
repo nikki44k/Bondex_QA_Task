@@ -1,0 +1,6 @@
+Summary:
+
+My QA test strategy focused on verifying Bondex’s core user flows: profile setup, wallet connection, token access, and app download functionality.
+I began with an exploratory approach to identify critical issues blocking user success, such as wallet authentication failures and broken app store links. 
+My bug reporting emphasizes clear reproduction steps, expected vs. actual results, and severity levels. I also prepared a reusable mini test suite for regression coverage. 
+If given more time, I would explore deeper edge cases like rejected MetaMask connections, add mobile cross-browser validation, and implement Playwright automation to continuously test login and wallet features.
