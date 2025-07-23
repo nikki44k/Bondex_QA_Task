@@ -13,6 +13,7 @@
 ![Bondex Footer](images/Bondex_Footer.png)
 3. Under “Get the app” or anywhere in the Bondex WebPage, click on the “Google Play” button
 ![Google Play Button Selection](images/Google_Play_Button_Selection.png)
+4. Confirm that the Google Play tab, where you can download the Bondex app, opens after clicking the "Google Play" button
 
 **Expected Result:**
 User is redirected to the Google Play Store page for Bondex.
@@ -25,7 +26,7 @@ This issue appears on most instances of the “Google Play” button across the 
 The only correctly working link is in:
 - Home Page → "$BDXN is now LIVE on exchanges!" → "Learn more"
 ![Learn More Selection](images/Learn_More_Selection.png)
-- Scrool down a little to "About Bondex" field → select "Download the App" 
+- ScroL;l down a little to "About Bondex" field → select "Download the App" 
 ![Download the App Selection](images/Download_the_App_Selection.png)
 - Which leads to this a QR code page: https://onelink.to/ddddwr, in that field navigate to "Available Downloads:" which has links to "iPhone", "iPad", "Android"
 - Click on the "Android" link
