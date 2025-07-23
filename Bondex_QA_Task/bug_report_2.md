@@ -27,7 +27,7 @@ This issue appears on most instances of the “Google Play” button across the 
 After careful observation, I found that the only correctly working link is at:
 - Home Page → "$BDXN is now LIVE on exchanges!" → "Learn more"
 ![Learn More Selection](images/Learn_More_Selection.png)
-- Scroll down a little to "About Bondex" field → select "Download the App" 
+- After selecting "Learn more", scroll down a little to "About Bondex" field → select "Download the App" 
 ![Download the App Selection](images/Download_the_App_Selection.png)
 - Which leads to this a QR code page: https://onelink.to/ddddwr, in that field navigate to "Available Downloads:" which has links to "iPhone", "iPad", "Android"
 - Click on the "Android" link
