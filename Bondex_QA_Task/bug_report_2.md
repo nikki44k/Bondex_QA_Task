@@ -21,6 +21,9 @@ User is redirected to the Google Play Store page for Bondex.
 **Actual Result:**
 User is redirected to the Apple App Store link instead.
 
+**Evidence:**
+![Wrong Google Play Link](images/Wrong_Google_Play_Link.png)
+
 **Notes:**
 This issue appears on most instances of the “Google Play” button across the site. 
 
@@ -32,9 +35,8 @@ After careful observation, I found that the only correctly working link is at:
 - Which leads to this a QR code page: https://onelink.to/ddddwr, in that field navigate to "Available Downloads:" which has links to "iPhone", "iPad", "Android"
 - Click on the "Android" link
 ![Android Selection](images/Android_Selection.png)
-
-**Evidence:**
-![Wrong Google Play Link](images/Wrong_Google_Play_Link.png)
+- Now, user should be able to see the correct page - Google Play page to download the Bondex App
+![Correct Google Play Link](images/Correct_Google_Play_Link.png)
 
 **Severity:** Medium  
 **Suggested Priority:** P2 – Functional error with marketing impact.
