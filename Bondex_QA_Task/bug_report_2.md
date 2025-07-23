@@ -8,7 +8,7 @@
 
 **Steps to Reproduce:**
 1. Open Bondex Home Page by using the link: https://bondex.app
-![Bondex Home Page]("Bondex_QA_Task/images/Bondex Home Page.png")
+![Bondex Home Page]("images/Bondex Home Page.png")
 2. Scroll to the footer in the Home Page
 ![Bondex Footer]("images/Bondex Footer.png")
 3. Under “Get the app” or anywhere in the Bondex WebPage, click on the “Google Play” button
