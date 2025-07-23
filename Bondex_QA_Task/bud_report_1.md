@@ -1,4 +1,4 @@
-## Bug Title: Wallet Connection via Google Does Not Complete
+## Bug 1: Wallet Connection via Google Does Not Complete
 
 **Environment:**
 - Web: https://bondex.app
