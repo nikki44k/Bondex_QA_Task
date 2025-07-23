@@ -23,7 +23,7 @@ User is redirected to the Apple App Store link instead.
 
 **Notes:**
 This issue appears on most instances of the “Google Play” button across the site.  
-The only correctly working link is in:
+After careful observation, I found that the only correctly working link is at:
 - Home Page → "$BDXN is now LIVE on exchanges!" → "Learn more"
 ![Learn More Selection](images/Learn_More_Selection.png)
 - Scroll down a little to "About Bondex" field → select "Download the App" 
