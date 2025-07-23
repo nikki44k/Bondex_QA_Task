@@ -31,7 +31,7 @@ Wallet should show as connected (e.g., wallet address or connected state display
 **Actual Result:**
 App spins briefly, then returns to the original “Connect Wallet” state with no indication of a successful connection.
 
-**Evidence:**
+**Evidence:**\
 Loading...
 ![Loading Captured](images/Loading_Captured.png)
 Return to the Original State
