@@ -1,4 +1,4 @@
-## Bug Title: “Google Play” Button Links to Apple App Store
+## Bug 2: “Google Play” Button Links to Apple App Store
 
 **Environment:**
 - Web: https://bondex.app
