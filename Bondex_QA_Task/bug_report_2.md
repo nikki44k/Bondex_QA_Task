@@ -13,13 +13,13 @@
 ![Bondex Footer](images/Bondex_Footer.png)
 3. Under “Get the app” or anywhere in the Bondex WebPage, click on the “Google Play” button
 ![Google Play Button Selection](images/Google_Play_Button_Selection.png)
-4. Confirm that the Google Play tab, where you can download the Bondex app, opens after clicking the "Google Play" button
+4. After clicking the Google Play button, verify that the Google Play tab for the Bondex app download has opened or not
 
 **Expected Result:**
-User is redirected to the Google Play Store page for Bondex.
+User should be redirected to the Google Play Store page for Bondex App Install
 
 **Actual Result:**
-User is redirected to the Apple App Store link instead.
+User is redirected to the Apple App Store link instead
 
 **Evidence:**
 ![Wrong Google Play Link](images/Wrong_Google_Play_Link.png)
