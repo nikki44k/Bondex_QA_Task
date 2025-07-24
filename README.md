@@ -1,7 +1,7 @@
 ## Author: Nikhitha Kilari (Nikki)
 # Bondex QA Task Submission
 
-This repository contains my deliverables for the Quality Assurance Engineering take-home assignment for **Bondex**. This task was part of the interview and hiring process.
+This repository contains my deliverables for the Quality Assurance Engineering Intern take-home assignment for **Bondex**. This task was part of the interview and hiring process.
 
 ---
 
