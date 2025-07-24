@@ -1,3 +1,4 @@
+//Since I'm not proficient and still learning in my current internship as a QA, this is my basic script - I promise I could do better
 describe('Google Play button link verification', () => {
   it('Should point to the correct Google Play Store URL', () => {
     // Visit the Bondex homepage
