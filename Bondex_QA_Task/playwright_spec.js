@@ -1,24 +1,22 @@
-import { test, expect } from '@playwright/test';
+describe('Google Play Button Link Verification', () => {
+  it('should link the Google Play button to the correct Google Play Store page', () => {
+    // Visit Bondex homepage
+    cy.visit('https://bondex.app');
 
-test('Google Play button should link to correct Google Play Store page', async ({ page }) => {
-  // 1. Go to the Bondex homepage
-  await page.goto('https://bondex.app');
+    // Scroll to the footer
+    cy.scrollTo('bottom');
 
-  // 2. Scroll to the footer where the "Get the app" section is located
-  const googlePlayBtn = page.locator('footer a img[alt="Google Play"]'); // Adjust selector if needed
+    // Locate the Google Play button inside the footer
+    cy.get('footer')
+      .find('a img[alt="Google Play"]') // Adjust this selector based on site structure
+      .should('be.visible')
+      .parent('a') // Get the parent anchor tag
+      .then(($a) => {
+        const href = $a.attr('href');
+        cy.log('Google Play button href: ', href);
 
-  // Wait for the button to be visible
-  await expect(googlePlayBtn).toBeVisible();
-
-  // 3. Extract the href/link from the parent <a> tag of the image
-  const googlePlayLink = await googlePlayBtn.locator('xpath=..').getAttribute('href');
-
-  console.log('Google Play link found:', googlePlayLink);
-
-  // 4. Assert that the link contains 'play.google.com'
-  expect(googlePlayLink).toContain('play.google.com');
-
-  // Optional: Navigate to the link to verify the redirection works
-  // await page.goto(googlePlayLink);
-  // await expect(page).toHaveURL(/play\.google\.com/);
+        // Assertion: should include Google Play Store domain
+        expect(href).to.contain('play.google.com');
+      });
+  });
 });
