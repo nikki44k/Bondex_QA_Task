@@ -1,24 +1,5 @@
-Feature: Wallet Connection
-
-  Scenario: User connects wallet via Google
-    Given I am logged into my Bondex account
-    When I navigate to Account Settings and select the Wallet tab
-    And I click "Connect Wallet"
-    And I choose "Continue with Google" and authenticate
-    Then my wallet should appear as connected in the webpage
-
-Feature: Google Play Button Link
-
-  Scenario: "Get it on Google Play" button redirects to Apple Store instead of Google Play
-    Given I am on the Bondex homepage
-    When I scroll to the footer and click the "Google Play" button
-    Then I should be redirected to the Google Play Store (not Apple App Store)
-
-Feature: Correct Play Store Link via Learn More
-
-  Scenario: Verify Android app download from correct link
-    Given I am on the Bondex homepage
-    When I click "Learn More" under $BDXN section
-    And I scroll down and select "Download the App" In About Bondex field
-    Leads me to QR code page and click "Android" in Available Downloads
-    Then I should be redirected to the correct Google Play Bondex app page
+| Test Case ID | Objective                                                    | Preconditions                                                                   | Steps                                                                                                                                                                            | Expected Result                                                                                 | Tags                               |
+| ------------ | ------------------------------------------------------------ | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------- |
+| TC001        | Verify Google Wallet connection through Account Settings     | User must be signed in to Bondex, MetaMask installed, test Google account ready | 1. Navigate to Profile > Account Settings > Wallet tab<br>2. Click “Connect Wallet”<br>3. Choose “Continue with Google”<br>4. Complete Google login<br>5. Return to original tab | Wallet should show connected state or user’s wallet address                                     | wallet-connection, regression      |
+| TC002        | Verify Google Play button in footer opens correct store link | User is on [https://bondex.app](https://bondex.app), browser allows popups      | 1. Scroll to bottom footer<br>2. Click on “Google Play” button<br>3. Observe new tab URL                                                                                         | New tab opens: URL contains “play.google.com” and displays Bondex app page                      | landing-page, marketing-link       |
+| TC003        | Verify working Google Play link from “Learn more” > QR page  | User is on Home Page, logged in or not                                          | 1. Click “Learn more” under “\$BDXN is now LIVE…”<br>2. Scroll to “About Bondex” > “Download the App”<br>3. Click “Android” link                                                 | User is navigated to working QR page and then redirected to correct Google Play Bondex app page | alternate-download-path, deep-link |
