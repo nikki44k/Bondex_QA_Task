@@ -4,7 +4,7 @@
 
 **Bug Quality:**  
 - **Accuracy:** Clearly identifies a missing UI element (`+ Add Bio` button) in the "About" field of the profile page, compared to other profile sections.  
-- **Reproducibility:** Easy to reproduce by navigating to https://bondex.app/talent/profile and inspecting the “About” field.  
+- **Reproducibility:** Easy to reproduce by logging in, navigating to https://bondex.app/talent/profile and inspecting the “About” field.  
 - **Severity Judgment:** Medium severity — affects usability and UI consistency but does not block functionality.  
 - **Evidence:** Screenshot contrasting the “About” section with other sections that have the button.
 ![Missing_Add_Bio_Button](images/Missing_Add_Bio_Button.png)
