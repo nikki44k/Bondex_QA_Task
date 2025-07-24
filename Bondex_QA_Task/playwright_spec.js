@@ -1,22 +1,23 @@
-describe('Google Play Button Link Verification', () => {
-  it('should link the Google Play button to the correct Google Play Store page', () => {
-    // Visit Bondex homepage
+describe('Google Play button link verification', () => {
+  it('Should point to the correct Google Play Store URL', () => {
+    // Visit the Bondex homepage
     cy.visit('https://bondex.app');
 
-    // Scroll to the footer
+    // Scroll to the bottom to make sure footer is visible
     cy.scrollTo('bottom');
 
-    // Locate the Google Play button inside the footer
+    // Locate the Google Play button in the footer
     cy.get('footer')
-      .find('a img[alt="Google Play"]') // Adjust this selector based on site structure
+      .find('img[alt="Google Play"]')
       .should('be.visible')
-      .parent('a') // Get the parent anchor tag
-      .then(($a) => {
-        const href = $a.attr('href');
-        cy.log('Google Play button href: ', href);
+      .parent('a') // get the parent <a> tag
+      .should('have.attr', 'href')
+      .then((href) => {
+        // Log the actual href for debug purposes
+        cy.log('Google Play button href:', href);
 
-        // Assertion: should include Google Play Store domain
-        expect(href).to.contain('play.google.com');
+        // Validate that the link goes to Google Play Store
+        expect(href).to.include('play.google.com');
       });
   });
 });
