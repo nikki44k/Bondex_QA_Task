@@ -28,9 +28,6 @@ Bondex_QA_Task/
 ├── summary.txt # Summary of test strategy and next steps
 └── test_cases.md # Manual test cases in clear table
 ```
-yaml
-Copy
-Edit
 
 ---
 
