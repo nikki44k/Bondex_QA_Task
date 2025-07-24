@@ -16,6 +16,7 @@
 **Bug Quality:**  
 - **Accuracy:** Precisely documents an incorrect redirect when clicking “Get Started” in “AI Job Match,” even if the user is logged in.  
 - **Reproducibility:** Clear reproduction steps - logging in, clicking the button leads to sign-up page, then redirects to “All Jobs” instead of “AI Matching”.
+- **Evidence & Reproduction Steps:**
 - Click the "Get Started" button in the Bondex Home Page (Make sure you are loggend in)
 ![Get_Started_Button](images/Get_Started_Button.png)
 - Redirected to Log In or Sign Up Page even if the user is already Logged In
@@ -23,7 +24,6 @@
 - Sign In or Log In, and then user is redirected to "All Jobs" tab instead of "AI Matching"
 ![All_Jobs_Tab_Page](images/All_Jobs_Tab_Page.png)
 - **Severity Judgment:** High-medium severity — breaks a key user flow, risking user frustration and drop-off.  
-- **Evidence:** Screenshots or screen recordings of the redirect flow, login page, and incorrect landing page are recommended.
 
 ---
 
