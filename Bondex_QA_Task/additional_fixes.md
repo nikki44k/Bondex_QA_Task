@@ -23,7 +23,7 @@
 ![LogIn_SignUp_Page](images/LogIn_SignUp_Page.png)
 - Sign In or Log In, and then user is redirected to "All Jobs" tab instead of "AI Matching"
 ![All_Jobs_Tab_Page](images/All_Jobs_Tab_Page.png)
-- **Severity Judgment:** High-medium severity — breaks a key user flow, risking user frustration and drop-off.  
+- **Severity Judgment:** High-medium severity - breaks a key user flow, risking user frustration and drop-off.  
 
 ---
 
